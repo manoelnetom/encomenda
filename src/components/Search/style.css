@@ -1,0 +1,44 @@
+.searchPaper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    align-items: flex-start;
+    padding-bottom: inherit;
+    padding-top: inherit;
+}
+
+.searchPaper label{
+    padding-left: .8rem;
+}
+
+.inputSearch{
+    display: flex;
+    width: 100%;
+    padding-right: .8rem;
+    padding-left: .8rem;
+    align-items: center;
+    border-radius: .8rem;
+}
+
+.paperSearch{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: auto;
+    width: 100%;
+    padding: 8px;
+    height: 3rem;
+}
+
+.input{
+    margin-left: 5px;
+    margin-top: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    .searchPaper{
+        width: 100%;
+    }
+} 

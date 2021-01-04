@@ -1,0 +1,66 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://devel.ifba.edu.br",
+  "dependencies": {
+    "@date-io/date-fns": "1.x",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/pickers": "^3.2.10",
+    "@sweetalert/with-react": "^0.1.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
+    "clsx": "^1.1.1",
+    "date-fns": "^2.16.1",
+    "firebase": "^7.22.1",
+    "formsy-react": "^2.2.1",
+    "history": "^4.10.1",
+    "jspdf": "^2.2.0",
+    "jwt-decode": "^3.0.0-beta.2",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1",
+    "pdfmake": "^0.1.68",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-dom": "^16.13.1",
+    "react-firebaseui": "^4.1.0",
+    "react-helmet-async": "^1.0.7",
+    "react-loader-spinner": "^3.1.14",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --passWithNoTests",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0"
+  }
+}
